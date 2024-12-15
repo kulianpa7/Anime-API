@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "kulianpa7-anime-api-29"
-          entrypoint: "./src/server.ts"
+          entrypoint: ""
           root: ""
           
           
