@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "kulianpa7-anime-api-29"
-          entrypoint: "npx ts-node ./src/server.ts"
+          entrypoint: "./src/server.ts"
           root: ""
           
           
